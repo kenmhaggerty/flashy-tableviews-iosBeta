@@ -12,7 +12,7 @@
 		7DF3D4421C6BF0BC00D926BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF3D4401C6BF0BC00D926BD /* Main.storyboard */; };
 		7DF3D4441C6BF0BC00D926BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF3D4431C6BF0BC00D926BD /* Assets.xcassets */; };
 		7DF3D4471C6BF0BC00D926BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF3D4451C6BF0BC00D926BD /* LaunchScreen.storyboard */; };
-		7DF3D4501C6BF1BB00D926BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3D44F1C6BF1BB00D926BD /* ViewController.m */; };
+		7DF3D4531C6BF2BE00D926BD /* FISTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3D4521C6BF2BD00D926BD /* FISTableViewController.m */; };
 		EC4C8F9C2C55ADC3DD9D4805 /* libPods-Flashy-Tableviews.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5FF427AC9DEF79D09193F35 /* libPods-Flashy-Tableviews.a */; };
 /* End PBXBuildFile section */
 
@@ -25,8 +25,8 @@
 		7DF3D4431C6BF0BC00D926BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF3D4461C6BF0BC00D926BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF3D4481C6BF0BC00D926BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DF3D44E1C6BF1BB00D926BD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7DF3D44F1C6BF1BB00D926BD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DF3D4511C6BF2BD00D926BD /* FISTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTableViewController.h; sourceTree = "<group>"; };
+		7DF3D4521C6BF2BD00D926BD /* FISTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTableViewController.m; sourceTree = "<group>"; };
 		C5FF427AC9DEF79D09193F35 /* libPods-Flashy-Tableviews.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Flashy-Tableviews.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C788BA141F392DA67EDC114A /* Pods-Flashy-Tableviews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashy-Tableviews.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flashy-Tableviews/Pods-Flashy-Tableviews.release.xcconfig"; sourceTree = "<group>"; };
 		C7C81E0C61D326F347F34C29 /* Pods-Flashy-Tableviews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flashy-Tableviews.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flashy-Tableviews/Pods-Flashy-Tableviews.debug.xcconfig"; sourceTree = "<group>"; };
@@ -75,8 +75,8 @@
 			children = (
 				7DF3D43A1C6BF0BC00D926BD /* AppDelegate.h */,
 				7DF3D43B1C6BF0BC00D926BD /* AppDelegate.m */,
-				7DF3D44E1C6BF1BB00D926BD /* ViewController.h */,
-				7DF3D44F1C6BF1BB00D926BD /* ViewController.m */,
+				7DF3D4511C6BF2BD00D926BD /* FISTableViewController.h */,
+				7DF3D4521C6BF2BD00D926BD /* FISTableViewController.m */,
 				7DF3D4401C6BF0BC00D926BD /* Main.storyboard */,
 				7DF3D4431C6BF0BC00D926BD /* Assets.xcassets */,
 				7DF3D4451C6BF0BC00D926BD /* LaunchScreen.storyboard */,
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF3D4501C6BF1BB00D926BD /* ViewController.m in Sources */,
+				7DF3D4531C6BF2BE00D926BD /* FISTableViewController.m in Sources */,
 				7DF3D43C1C6BF0BC00D926BD /* AppDelegate.m in Sources */,
 				7DF3D4391C6BF0BC00D926BD /* main.m in Sources */,
 			);

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FISTableViewController.h
 //  Flashy-Tableviews
 //
 //  Created by Ken M. Haggerty on 2/10/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface FISTableViewController : UITableViewController
 
 @end
-
